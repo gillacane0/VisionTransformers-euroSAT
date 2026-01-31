@@ -1,10 +1,8 @@
-Project overview
+# Project overview
 
-This project implements a state-of-the-art Satellite Image Classifier using the Vision Transformer (ViT) architecture. The system classifies Sentinel-2 satellite images into 10 distinct land cover categories (e.g., Forests, Industrial, Residential, Crops).
+- This project implements a state-of-the-art Satellite Image Classifier using the Vision Transformer (ViT) architecture. The system classifies Sentinel-2 satellite images into 10 distinct land cover categories (e.g., Forests, Industrial, Residential, Crops).
 
-The primary goal is to demonstrate the power of Transfer Learning and the Self-Attention mechanism in Computer Vision, specifically for remote sensing applications where global spatial relationships are key.
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+- The primary goal is to demonstrate the power of Transfer Learning and the Self-Attention mechanism in Computer Vision, specifically for remote sensing applications where global spatial relationships are key.
 
 - The model used and fine tuned is "google/vit-base-patch16-224-in21k"
 
@@ -20,9 +18,7 @@ Due to file size limitations on GitHub, the fine-tuned model weights are hosted 
 You can find the model here: [https://huggingface.co/gilladog/vit-base-eurosat]
 
 
-----------------------------
--------How to run-----------
-----------------------------
+# How to run
 
 1. Dowload the files
 
@@ -35,10 +31,7 @@ You can find the model here: [https://huggingface.co/gilladog/vit-base-eurosat]
 ![Screen_of_application](Gradio-screen.png)
 
 
-
-----------------------------
-----------RESULTS-----------
-----------------------------
+# Results
 
 These are the results obtained after the fine tuning:
 | Class | Precision | Recall | F1-Score | Support |
@@ -60,6 +53,7 @@ These are the results obtained after the fine tuning:
 
 
 ![Confusion_matrix](confusion-matrix.png)
+
 
 
 
