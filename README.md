@@ -29,7 +29,7 @@ To optimize VRAM usage, I implemented a Lazy Loading pipeline using the .with_tr
 
 4. Go to the webpage of the local host shown on the terminal
 
-![Screen_of_application]{Gradio-screen.png}
+![Screen_of_application](Gradio-screen.png)
 
 
 
@@ -57,7 +57,8 @@ HerbaceousVegetation       0.97      0.98      0.98       303
         weighted avg       0.98      0.98      0.98      2700
 
 
-![Confusion_matrix]{confusion-matrix.png}
+![Confusion_matrix](confusion-matrix.png)
+
 
 
 
