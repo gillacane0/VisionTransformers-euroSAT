@@ -3,7 +3,7 @@ import gradio as gr
 from transformers import pipeline
 
 
-classifier = pipeline("image-classification", model="./eurosat_final_model")
+classifier = pipeline("image-classification", model="gilladog/vit-base-eurosat")
 
 def predict(img):
     predictions = classifier(img)
